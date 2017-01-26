@@ -5,7 +5,8 @@
  */
 package exercice;
 
-import exercice.Heritage.Heritage;
+import exercice.core.Application;
+import exercice.recursivite.suites.entier.SuiteEntier;
 
 /**
  *
@@ -17,7 +18,7 @@ public class Exercice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    Heritage exo1= new Heritage();
+    Application exo1= new SuiteEntier();
     exo1.start();
     }
     

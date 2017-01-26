@@ -3,15 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercice.Heritage.meuble.entity;
-
-import exercices.heritage.Tripotable;
+package exercice.recursivite.suites.interfaces;
 
 /**
  *
  * @author qais-amini
  */
-public abstract class Meuble implements Tripotable {
-
+public interface RecursiveInterface {
+    public int suite(int n);
     
 }

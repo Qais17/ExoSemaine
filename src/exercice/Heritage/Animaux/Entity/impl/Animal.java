@@ -1,17 +1,20 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercice.Heritage.Animaux.Entity.impl;
+package exercices.heritage.animaux.entities;
+
+import exercices.heritage.Tripotable;
 
 /**
  *
  * @author qais-amini
  */
-public class Animal {
-    public String son="";
-   public void emmetreSon(){
-   System.out.println("le " + this.getClass().getSimpleName() + son);
-   };
+public abstract class Animal implements Tripotable {
+    public String son = "";
+    public void emettreSon(){
+        System.out.println("Le " + this.getClass().getSimpleName()+" "+ son);
+    }
 }

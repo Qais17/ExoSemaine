@@ -3,15 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercice.Heritage.meuble.entity.impl;
+package exercices.heritage.meubles.entities.impl;
+
+import exercices.heritage.meubles.entities.Meuble;
 
 /**
  *
  * @author qais-amini
  */
 public class Table extends Meuble {
+
     public Table() {
-        this.nom = "table";
+
     }
-    }
+    
+    
+}
 
